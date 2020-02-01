@@ -1,0 +1,30 @@
+{
+    "name": "y2k",
+    "displayName": "y2k",
+    "description": "Y2K color themes",
+    "version": "0.1.0",
+    "repository": {
+        "type" : "git",
+        "url" :"https://github.com/hammster/y2k-theme"
+    },
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Y2K dmg grey",
+                "uiTheme": "vs",
+                "path": "./themes/y2k-dmg-gray.json"
+            },
+            {
+                "label": "Y2K r4 yellow",
+                "uiTheme": "vs",
+                "path": "./themes/y2k-r4-yellow.json"
+            }
+        ]
+    }
+}
